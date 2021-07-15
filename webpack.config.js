@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-      shape: './src/shape.js',
+      shape: './src/basic.js',
   },
   output: {
     filename: 'bundle.js',
