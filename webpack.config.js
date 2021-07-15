@@ -5,7 +5,7 @@ module.exports = {
       shape: './src/shape.js',
   },
   output: {
-    filename: '[name].js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'bundler'),
   },
 };
