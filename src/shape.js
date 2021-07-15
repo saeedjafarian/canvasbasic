@@ -1,3 +1,5 @@
+import { context } from "./basic";
+
 //Create Circle
   class Circle {
     constructor(x, y, radius, color) {
@@ -34,3 +36,5 @@
       this.draw();
     }
   }
+
+  export { Circle , Rectangle };

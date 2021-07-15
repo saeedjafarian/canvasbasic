@@ -1,3 +1,5 @@
+import {Circle , Rectangle} from "./shape.js";
+
 const canvas = document.querySelector("#canvas");
 canvas.width = innerWidth;
 canvas.height = innerHeight;
@@ -15,3 +17,5 @@ addEventListener("resize", function () {
     context.clearRect(0, 0, canvas.width, canvas.height);
   }
   animate();
+
+export {context};
