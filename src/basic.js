@@ -1,5 +1,6 @@
 import {Circle , Rectangle} from "./shape.js";
 import {getRandomArbitrary,distance} from "./geometric-functions.js";
+import {Character} from "./character.js";
 
 const canvas = document.querySelector("#canvas");
 canvas.width = innerWidth;
